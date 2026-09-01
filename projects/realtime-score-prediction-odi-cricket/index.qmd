@@ -1,0 +1,32 @@
+---
+title: "Context Aware Cricket Outcomes Prediction"
+subtitle: "AI3011: Machine Learning and Pattern Recognition"
+description: "An LSTM-based system that predicts the final score of an ODI cricket innings from any game state, using two decades of ball-by-ball data and custom pitch-condition metrics."
+categories: [Machine Learning, LSTM]
+order: 7
+author:
+  - name: Arnav Kapoor
+    affiliation: Plaksha University
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+  - name: Suraj Dayma
+    affiliation: Plaksha University
+---
+
+::: {.link-row}
+[<i class="bi bi-github"></i> Code](https://github.com/S-rg/CricketFinalScorePrediction)
+:::
+
+*Course: AI3011 — Machine Learning and Pattern Recognition* | Feb 2025 – May 2025
+
+## Overview
+
+This collaborative project developed a machine learning model to predict an ODI innings' final score, accounting for match context using custom pitch-condition metrics and ball-by-ball data from the past two decades.
+
+## Key Contributions
+
+- Trained a machine learning model to predict an ODI innings' final score, accounting for match context.
+- Developed an LSTM-based recurrent neural network aided by convolutional layers to predict innings scorelines.
+- Created spin factor and pace factor as custom metrics to quantify pitch conditions.
+- Trained the predictor on a custom feature-rich dataset comprising ODI matches since 2006, achieving an **RMSE of 13**.

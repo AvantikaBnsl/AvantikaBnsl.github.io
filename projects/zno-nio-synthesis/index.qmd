@@ -1,0 +1,23 @@
+---
+title: "ZnO-NiO Nanocomposite Synthesis"
+subtitle: "Course Project"
+description: "Fabrication and characterization of a ZnO-NiO nanocomposite using Ultrasonication-Assisted Mechanical method with XRD, FTIR, and UV-Vis spectroscopy."
+categories: [Nanoparticle Synthesis, Material Science, Characterization]
+order: 6
+author:
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+---
+
+*Advisor: Prof. Chaitanya Lekshmi Indira* | Mar 2025 – May 2025
+
+## Overview
+
+This project involved the fabrication and analysis of a ZnO-NiO nanocomposite using an Ultrasonication-Assisted Mechanical method, with comprehensive characterization using spectroscopic techniques.
+
+## Key Contributions
+
+- Fabricated and analyzed a 1:1 **ZnO-NiO nanocomposite** using an Ultrasonication-Assisted Mechanical method.
+- Characterized samples using **XRD, FTIR, and UV-Vis spectroscopy** and obtained distinctive intensity and absorption peaks.
+- Achieved up to **90% similarity** between sample results and characteristic properties of lab-grade chemicals.

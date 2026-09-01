@@ -1,0 +1,30 @@
+---
+title: "Algal Facades for Sustainable Buildings"
+subtitle: "Research Project"
+description: "Developing and analyzing algal photobioreactors for energy-efficient building facades, with life-cycle assessment and experimental validation."
+categories: [Sustainability, Green Buildings, Energy Efficiency]
+order: 1
+author:
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+---
+
+*Advisors: Prof. Malini Balakrishnan, Prof. Prashanth Kumar* | Jan 2025 – May 2026
+
+## Overview
+
+This project developed and analyzed the efficiency of algal photobioreactors to evaluate their energy-saving potential as building facades, combining simulation, wet-lab experimentation, and life-cycle assessment.
+
+## Key Contributions
+
+- Developed and analyzed efficiency of **algal photobioreactors** to evaluate energy-saving potential.
+- Ran **15+ building-energy simulations** varying facade parameters with DesignBuilder software to model performance.
+- Cultured algae and carried out media preparation, inoculation, sampling, and growth-curve analysis to characterize algal growth.
+- Designed and operated a lab scale photobioreactor to **experimentally validate algal growth and nutrient absorption**.
+- Conducted **life-cycle assessment (LCA)** using OpenLCA to evaluate environmental impacts of the algal facade vs blinds.
+- Found energy savings value of up to **-20 Global Warming Potential** units for facade operation.
+
+## Publication
+
+**Bansal, A.**, Mathai, B., Jadhav, N., Balakrishnan, M., Kumar, P. S. (2025). ***Designing an Algal Façade for Improving Energy Efficiency in a Building in North India***. Oral presentation at the X International Conference on Sustainable Energy and Environmental Challenges (X SEEC).

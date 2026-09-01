@@ -1,0 +1,19 @@
+---
+title: "Assessing Fungal Microbiome to Investigate Soil Carbon Sequestration"
+subtitle: "Plaksha University · Jul 2025 – Present"
+description: "Molecular characterization of economically significant fungal pathogens for species-level identification using PCR, sequencing, and phylogenetic analysis."
+---
+
+> Supervisor: Dr. Navjot Kaur, Plaksha University
+
+## Overview
+
+This ongoing research focuses on characterizing economically significant fungal pathogens at the molecular level for species-level identification, contributing to understanding soil carbon sequestration through the fungal microbiome.
+
+## Contributions
+
+- **Characterized 3 economically affecting fungal pathogens** on a molecular level for species level identification.
+- Performed fungal culturing, microscopy and genomic DNA extraction.
+- Executed **PCR amplification and restriction digestion** for species identification with Sanger sequencing.
+- Analyzed fungal sequences using **phylogenetic trees with MEGA** alignment tool to validate species identity and similarity.
+- Conducted a comparative analysis for **ITS and species specific primers** obtaining >95% alignment with reference sequences.

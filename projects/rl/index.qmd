@@ -1,0 +1,24 @@
+---
+title: "Multi-Agent RL for Linear Salp-Chain Underwater Navigation"
+subtitle: "RO3004: Reinforcement Learning"
+description: "Developing control policies for linear chains of underwater robots using multi-agent reinforcement learning for coordinated obstacle avoidance."
+categories: [Reinforcement Learning, Underwater Navigation, Multi-Agent Systems]
+order: 2
+author:
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+---
+
+*Advisor: Prof. Sandeep Manjanna* | Jan 2026 – May 2026
+
+## Overview
+
+This project focused on developing control policies for a linear chain of underwater robots (inspired by salp chains) to achieve coordinated obstacle avoidance navigation.
+
+## Key Contributions
+
+- **Developed a control policy** for a linear chain of underwater robots for coordinated obstacle avoidance navigation.
+- Worked with a **2D underwater navigation** RL environment with salp chain agents from GRASP Lab, UPenn.
+- Implemented **multi-agent policies** IQL, MAPPO, and MADDPG for target navigation and obstacle avoidance.
+- Designed **dynamic underwater obstacle-placement curriculum**, achieving an **81%** collision-free navigation success rate.

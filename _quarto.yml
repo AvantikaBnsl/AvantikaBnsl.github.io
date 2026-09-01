@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+  resources:
+    - "assets/**"
+
+website:
+  title: "Avantika Bansal"
+  description: "B.Tech. student in Biological Systems Engineering at Plaksha University, working at the intersection of biology, computation, and engineering."
+  site-url: "https://AvantikaBnsl.github.io"
+  # favicon: assets/img/favicon.png
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: false
+  search: false
+
+format:
+  html:
+    theme:
+      light: [default, theme/light.scss, theme/shared.scss]
+      dark: [default, theme/dark.scss, theme/shared.scss]
+    respect-user-color-scheme: true
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    fig-align: left
+    html-math-method: mathjax
+    grid:
+      body-width: 900px
+
+execute:
+  freeze: false
+  echo: false

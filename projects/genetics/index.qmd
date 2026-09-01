@@ -1,0 +1,23 @@
+---
+title: "Genetic Engineering for Cadmium Phytoremediation"
+subtitle: "Course Project"
+description: "Designing a genetic engineering strategy for Populus x canescens to enhance cadmium uptake and stress tolerance for environmental bioremediation."
+categories: [Genetic Engineering, Bioremediation, Synthetic Biology]
+order: 5
+author:
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+---
+
+*Advisor: Prof. Arshdeep Sidhu* | Mar 2026 – May 2026
+
+## Overview
+
+This project involved designing a genetic engineering strategy for *Populus x canescens* to enhance cadmium uptake and stress tolerance for environmental phytoremediation.
+
+## Key Contributions
+
+- Designed a genetic engineering strategy for *Populus x canescens* to **enhance cadmium uptake and stress tolerance.**
+- Developed a multi-gene construct targeting **PcNRAMP1, GSH1/GSH2, SOD, and APX** for enhanced phytoremediation.
+- Proposed framework increases **cadmium uptake more than 50%** based on hypothetical estimates.

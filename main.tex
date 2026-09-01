@@ -1,0 +1,406 @@
+\documentclass[letterpaper,9pt]{article}
+
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{teal}{RGB}{0,128,128}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{enumitem} 
+\input{glyphtounicode}
+% \usepackage{fontspec}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{tikz}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlist[itemize]{nosep, topsep=0pt, partopsep=0pt, parsep=0.2em, itemsep=0.1em}
+
+
+% Formatting sections
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\Large
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% \setmainfont[
+% Extension = .ttf,
+%   UprightFont = fonts/*-Regular,
+%   BoldFont = fonts/*-Bold.ttf,
+%   ItalicFont = fonts/*-Italic.ttf,
+%   BoldItalicFont = fonts/*-BoldItalic.ttf
+% ]{Calibri}
+
+\begin{document}
+\include{custom-commands}
+
+% plaksha logo
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north east, xshift=-0.4cm, yshift=-0.4cm] at (current page.north east) {
+        \includegraphics[width=3.7cm]{logo_latest.png}
+    };
+\end{tikzpicture}
+
+{\Huge \textbf{\textcolor{teal}{Avantika Bansal}}}
+
+\vspace{0.2em}
+
+\noindent
+
+\begin{tabularx}{\textwidth}{@{}X@{}}
+\href{mailto:avantika.bansal.ug23@plaksha.edu.in}{avantika.bansal.ug23@plaksha.edu.in} \textbar\ 
++91 9829011528 \\
+\faLinkedin\ \href{https://www.linkedin.com/in/avantika-bansal-9253b3278/}{\textbf{LinkedIn}} \textbar\ 
+\faGithub\ \href{https://github.com/AvantikaBnsl}{\textbf{GitHub}}
+\end{tabularx}
+
+
+% \vspace{0.3em}
+
+% \section*{Education}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.4\linewidth}{0.5pt}
+    \hspace{1em}
+    \textbf{EDUCATION}
+    \hspace{1em}
+    \rule[0.5ex]{0.4\linewidth}{0.5pt}
+\end{center}
+
+\begin{tabularx}{\textwidth}{@{} l l X r @{}}
+{\small
+\textbf{BTech} - Biological Systems Engineering\hspace{4em} & Plaksha University, Mohali, India\hspace{5em} & 8.93 & 2027 \\[0.5em]
+\textbf{12th} - CBSE & MGD Girls’ School, Jaipur, India\hspace{4em} & 94.8\% & 2023 \\[0.5em]
+\textbf{10th} - CBSE & MGD Girls’ School, Jaipur, India\hspace{4em} & 93.2\% & 2021 \\
+}
+\end{tabularx}
+
+\vspace{0.2em}
+
+
+
+% \section*{Experience}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.34\linewidth}{0.5pt}
+    \hspace{0.5em}
+    \textbf{RESEARCH EXPERIENCE}
+    \hspace{0.5em}
+    \rule[0.5ex]{0.34\linewidth}{0.5pt}   
+    \vspace{0.3em}
+\end{center}
+
+\begin{itemize}[leftmargin=0pt, parsep=0pt, itemsep=0.4em]
+
+% \item[] \textbf{Experimental investigations on fungal microbe proliferation in agricultural settings} \textbar\ \textit{Dr. Navjot Kaur} \hfill Aug 2026 -- Present
+% {\small
+% \begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=1pt, parsep=1pt, topsep=1pt]
+% \item Designed experiments to investigate survival, proliferation, and population dynamics of beneficial and pathogenic fungi in soil–plant ecosystems.
+% \item Cultured \textit{Trichoderma} strains and \textit{Alternaria alternata}, and standardized spore concentrations for controlled microbial inoculation.
+% \item Established tomato soil–plant–microbe systems with controlled soil treatments and two microbial inoculum concentrations.
+% \item Conducted time-point soil sampling and microbial population enumeration to quantify fungal survival and proliferation.
+% \item Analysed microbial growth, plant growth, and disease parameters to identify factors influencing fungal proliferation and inform product formulation strategies.
+% \end{itemize}
+% }
+
+
+\item[] \textbf{Research Intern, Amgen Scholars Program} \hfill Jun 2026 -- Aug 2026\\
+\textbf{Computational Aptamer Optimization for Electrochemical Biosensor} \textbar\ \textit{Dr. Abhishek Srivastava, IIIT-H}
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.5pt, parsep=0pt, topsep=1pt]
+\item Established a \textbf{ZnO nanorod based electrochemical sensor} for rapid detection of \textbf{Tuberculosis}.
+\item Fabricated and characterized \textbf{ZnO nanorod-modified IDEs using hydrothermal synthesis} for electrochemical biosensing.
+\item Developed a computational pipeline for aptamer optimization using \textbf{2D and 3D modelling} with RNA structure simulation tools.
+\item Extracted \textbf{sequence, structural, physicochemical, docking features and binding affinity} for aptamer–protein pairs.  
+\item Presented at the\textbf{ Amgen Asia Symposium}, University of Tokyo, engaging with 75+ researchers from across Asia and Australia.
+\end{itemize}
+}
+
+\vspace{0.35em}
+
+\item[] \textbf{Assessing Fungal Microbiome to Investigate Soil Carbon Sequestration} \textbar\ \textit{Dr. Navjot Kaur} \hfill Jul 2025 -- Present
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.5pt, parsep=0pt, topsep=1pt]
+\item \textbf{Characterized 3 economically affecting fungal pathogens} on a molecular level for species level identification.  
+\item Performed fungal culturing, microscopy and genomic DNA extraction.
+\item Executed \textbf{PCR amplification and restriction digestion} for species identification with Sanger sequencing. 
+\item Analyzed fungal sequences using \textbf{phylogenetic trees with MEGA} alignment tool to validate species identity and similarity.
+\item Conducted a comparative analysis for \textbf{ITS and species specific primers} obtaining \>95\% alignment with reference sequences.
+\end{itemize}
+}
+
+\vspace{0.35em}
+
+\item[] \textbf{Algal Facades for Sustainable Buildings} \textbar\ \textit{Prof. Malini Balakrishnan, Prof. Prashanth Kumar} \hfill Jan 2025 -- May 2026
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.5pt, parsep=0pt, topsep=1pt]
+\item Developed and analyzed efficiency of \textbf{algal photobioreactors} to evaluate energy-saving potential.
+\item Ran \textbf{15+ building-energy simulations} varying facade parameters with DesignBuilder software to model performance.
+\item Cultured algae and carried out media preparation, inoculation, sampling, and growth-curve analysis to characterize algal growth.
+\item Designed and operated a lab scale photobioreactor to \textbf{experimentally validate algal growth and nutrient absorption}.
+\item Conducted \textbf{life-cycle assessment (LCA)} using OpenLCA to evaluate environmental impacts of the algal facade vs blinds.
+\item Found energy savings value of upto \textbf{-20 Global Warming Potential} units for facade operation.
+\end{itemize}
+}
+
+% \section*{Publications}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.395\linewidth}{0.5pt}
+    \hspace{0.5em}
+    \textbf{PUBLICATIONS}
+    \hspace{0.5em}
+    \rule[0.5ex]{0.395\linewidth}{0.5pt}
+\end{center}
+\vspace{-0.2em}
+
+\begin{itemize}[leftmargin=0pt, parsep=0pt, itemsep=0.2em]
+\item[] \textbf{Bansal, A.}, Mathai, B., Jadhav, N., Balakrishnan, M., Kumar, P. S. (2025). \textbf{\textit{Designing an Algal Façade for Improving Energy Efficiency in a Building in North India}}. Oral presentation at the X International Conference on Sustainable Energy and Environmental Challenges (X SEEC)
+
+\end{itemize}
+
+\vspace{0.3em}
+
+% \section*{Projects}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.42\linewidth}{0.5pt}
+    \hspace{0.5em}
+    \textbf{PROJECTS}
+    \hspace{0.5em}
+    \rule[0.5ex]{0.42\linewidth}{0.5pt}
+\end{center}
+
+\begin{itemize}[leftmargin=0pt, parsep=0pt, itemsep=0.8em]
+
+\item[] \textbf{Multi-Agent RL for Linear Salp-Chain Underwater Navigation} \textbar\ \textit{Prof. Sandeep Manjanna} \hfill Jan 2026 - May 2026
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item \textbf{Developed a control policy} for a linear chain of underwater robots for coordinated obstacle avoidance navigation. 
+    \item Worked with a \textbf{2D underwater navigation} RL environment with salp chain agents from GRASP Lab, UPenn.
+    \item Implemented \textbf{multi-agent policies} IQL, MAPPO, and MADDPG for target navigation and obstacle avoidance.
+    \item Designed \textbf{dynamic underwater obstacle-placement curriculum}, achieving an \textbf{81\%} collision-free navigation success rate.
+\end{itemize}
+}
+
+\item[] \textbf{Deep Learning-Enhanced Metabolic Control for PHA Production} \textbar\ \textit{Prof. Monika Sharma} \hfill Aug 2026 - Present
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Building a computational framework to optimize the \textbf{production of bioplastic (PHA)} in Pseudomonas putida.
+    \item Developing \textbf{metabolic sub-network reconstruction} for enhancing PHA production pathways.
+    \item Formulating a \textbf{dynamic simulations and MCA} based framework to analyze metabolic engineering targets. 
+\end{itemize}
+}
+
+\item[] \textbf{Inverse PINN Modelling of Flow in a Collapsible Compliant Tube} \textbar\ \textit{Prof. Shashikant Pawar} \hfill Aug 2026 - Present
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Analyzing flow--structure interactions in collapsible tubes to study \textbf{pressure and velocity fields} in venous blood flow.
+    \item Constructing \textbf{fluid--structure interaction (FSI) models} and experimental setup for tube deformation and flow measurements.
+    \item Implementing a \textbf{physics-informed inverse model (PINN)} for validating experimental measurements.
+\end{itemize}
+}
+
+\item[] \textbf{Genetic Engineering for Cadmium Phytoremediation} \textbar\ \textit{Prof. Arshdeep Sidhu} \hfill Mar 2026- May 2026
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Designed a genetic engineering strategy for \textit{Populus x canescens} to \textbf{enhance cadmium uptake and stress tolerance.}
+    \item Developed a multi-gene construct targeting \textbf{PcNRAMP1, GSH1/GSH2, SOD, and APX} for enhanced phytoremediation.
+    \item Proposed framework increases \textbf{cadmium uptake more than 50\%} based on hypothetical estimates. 
+\end{itemize}
+}
+
+% \item[] \textbf{Microsatellite Instability and WRN Inhibition in Colorectal Cancer} \textbar\ \textit{Prof. Swagata Halder} \hfill Oct 2025 -- Feb 2026
+% {\small
+% \begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+%     \item Conducted a comprehensive literature review on MSI biology and synthetic lethality mechanisms involving WRN helicase.
+%     \item Analyzed the therapeutic potential of WRN inhibitors in MSI-high colorectal cancer.
+%     \item Working on a review article studying MSI biology, WRN dependency, and its clinical applications.
+% \end{itemize}
+% }
+
+% \item[] \textbf{Context Aware Cricket Outcomes Prediction} \textbar\ \textit{Prof. Siddharth S.} \hfill Feb 2025 -- May 2025
+% {\small
+% \begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+%     \item Trained a machine learning model to predict an ODI innings' final score, accounting for match context.
+%     \item Developed an LSTM-based recurrent neural network aided by convolutional layers to predict innings scorelines.
+%     \item Trained the predictor on a custom feature-rich dataset comprising ODI matches since 2006, achieving an RMSE of 13.
+% \end{itemize}
+% }
+\vspace{0.7em}
+
+
+\item[] \textbf{ZnO-NiO Nanocomposite Synthesis} \textbar\ \textit{Prof. Chaitanya Lekshmi Indira} \hfill Mar 2025 -- May 2025
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Fabricated and analyzed a 1:1 \textbf{ZnO-NiO nanocomposite} using an Ultrasonication-Assisted Mechanical method.
+    \item Characterized samples using \textbf{XRD, FTIR, and UV-Vis spectroscopy} and obtained distinctive intensity and absorption peaks.
+    \item Achieved up to \textbf{90\% similarity} between sample results and characteristic properties of lab-grade chemicals.
+    
+\end{itemize}
+}
+
+\end{itemize}
+    
+%  \item[] \textbf{Plaksha EBay} \textbar\ \textit{Prof. Manoj Kannan} \hfill Jan 2024 -- May 2024
+% {\small
+% \begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=1pt, parsep=1pt, topsep=1pt]
+%         \item Designed and implemented a C++ OOP-based platform for student-to-student buying and selling.
+%         \item Built an interface to reduce spam,and organize information and space for transactions.
+%         \item Developed features for users to streamline campus exchange activities.
+%     \end{itemize}
+%     }
+
+\end{itemize}
+
+\vspace{0.7em}
+
+% \section*{Skills}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.44\linewidth}{0.5pt}
+    \hspace{0.5em}
+    \textbf{SKILLS}
+    \hspace{0.5em}
+    \rule[0.5ex]{0.44\linewidth}{0.5pt}
+\end{center}
+
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=1pt, parsep=1pt, topsep=1pt]
+{\small
+    \item \textbf{Biosystems:} Microbial culture, molecular cloning, DNA extraction, qPCR amplification, electrochemical analysis
+    \item \textbf{Programming Languages:}  C, C++, Python
+    \item \textbf{Computational Tools:} BLAST, SnapGene, ClustalW, MEGA; DesignBuilder, COMSOL, OpenLCA}
+\end{itemize}
+
+\vspace{0.7em}
+
+%\section*{Relevant Coursework}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.33\linewidth}{0.5pt}
+    \hspace{0.5em}
+    \textbf{RELEVANT COURSEWORK}
+    \hspace{0.5em}
+    \rule[0.5ex]{0.33\linewidth}{0.5pt}
+\end{center}
+
+{\small
+\noindent
+\begin{tabularx}{\textwidth}{@{}X@{\hspace{3em}}l@{\hspace{3em}}X@{}l@{}}
+\textbf{BE2002:} Biochemistry and Molecular Biology & Grade: A- &
+\textbf{BE3012:} Cell Biology & Grade: A- \\
+
+\textbf{BE3007:} Genetics and Genetic Engineering & Grade: A- &
+\textbf{BE2007:} Bioprocess Engineering & Grade: A \\
+
+\textbf{BE3001:} Stochastic Modelling in Biology & Grade: A- &
+\textbf{BE2005:} Material Science for Bioengineering & Grade: A- \\
+
+\textbf{BE3014:} Lab-on-a-Chip Devices & Grade: A- &
+\textbf{ME3002:} Fluid Mechanics & Grade: A- \\
+
+\textbf{RO3004:} Reinforcement Learning & Grade: A- &
+\textbf{AI3011:} Machine Learning & Grade: A
+\end{tabularx}
+}
+
+\vspace{0.2em}
+
+% \section*{Leadership \& Roles}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.36\linewidth}{0.5pt}
+    \hspace{1em}
+    \textbf{LEADERSHIP ROLES}
+    \hspace{1em}
+    \rule[0.5ex]{0.36\linewidth}{0.5pt}
+\end{center}
+
+\begin{itemize}[leftmargin=0pt, parsep=0pt, itemsep=0.8em]
+
+\item[] \textbf{Cohort Representative} \textbar\ {Biological Systems Engineering, Plaksha University}  \hfill Jan 2025 -- Present
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Representing BSE cohort, facilitating communication between 20+ faculty members and the student body.
+    \item Bridging student‐faculty communication on course policies resolving student academic challenges through continuous feedback.
+\end{itemize}
+}
+
+\item[] \textbf{President} \textbar\ {Nebula, Plaksha Well-Being Club} \hfill Feb 2025 -- Present
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Leading a 30 member team to design and implement student-centric mental health and stress-relief programs.
+    \item Conducted events and competitions to contribute to a more supportive and resilient campus culture.
+\end{itemize}
+}
+
+\item[] \textbf{Core Member, Organizing Committee} \textbar\ {Dotslash Hackathon, Plaksha University} \hfill Nov 2024
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Collaborated on logistics, venue layout, and challenge-track design for a 120+ participant inter-college hackathon.
+\end{itemize}
+}
+
+\item[] \textbf{House Captain} \textbar\ {MGD Girls' School} \hfill Jul 2022 -- Apr 2023
+{\small
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep=0.2pt, parsep=0pt, topsep=1pt]
+    \item Led 500+ students in cultural and sports events, securing the award for best house in academics and co-curricular activities.
+    \item Coordinated major annual events for 1000+ students as part of a 37-member student council.
+\end{itemize}
+}
+
+\end{itemize}
+
+    % \vspace{0.2em}
+% \begin{itemize}[leftmargin=*]
+%     \item textbf{Class Representative, BSE Cohort}
+    
+%     \item Organising committee for inter-college hackathon (Dotslash)
+%     \item Finance lead for Rangrez (Plaksha Art Club)
+%     \item Co-president for Nebula (Plaksha Well-being Club)
+%     \item House captain in school – managed cultural and sports events
+
+
+\vspace{0.7em}
+
+% \section*{Achievements}
+\noindent
+\begin{center}
+    \rule[0.5ex]{0.38\linewidth}{0.5pt}
+    \hspace{1em}
+    \textbf{ACHIEVEMENTS}
+    \hspace{1em}
+    \rule[0.5ex]{0.38\linewidth}{0.5pt}
+\end{center}
+
+\begin{itemize}[leftmargin=1em, label=\textbullet, itemsep =0pt, parasep=0pt]
+        \item \textbf{Runners-up, Hack Plaksha} (Fintech Track, Feb 2024) - Developed Dhanshakti, a financial management app to empower rural self-help groups by simplifying savings and loan tracking.
+        \item \textbf{Gold Medal, District Karate Tournament} - Secured first place in Individual Shihai in Under 18 category.
+        \item \textbf {Merit Scholarship, Plaksha University}: Recognized for academic excellence with a GPA above 8 and extracurricular.
+        \item Completed Foundation certification for \textbf{BS in Data Science} from IIT Madras.
+
+    \end{itemize}
+\end{document}

@@ -1,0 +1,54 @@
+---
+title: "Avantika Bansal"
+pagetitle: "Avantika Bansal"
+about:
+  id: intro
+  template: solana
+  image: assets/img/avantika_pfp.jpeg
+  image-shape: round
+  image-width: 190px
+  links:
+    - icon: file-earmark-person
+      text: CV
+      href: assets/files/Avantika_CV.pdf
+    - icon: github
+      text: GitHub
+      href: https://github.com/AvantikaBnsl
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/avantika-bansal-9253b3278/
+    - icon: envelope
+      text: Email
+      href: "mailto:avantika.bansal.ug23@plaksha.edu.in"
+listing:
+  - id: projects
+    contents: projects/*/index.qmd
+    template: _listings/card.ejs.md
+    fields: [image, image-alt, title, description, categories]
+    sort: "order"
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 2
+    image-lazy-loading: true
+---
+
+::: {#intro}
+B.Tech. student in Biological Systems Engineering at Plaksha University (Batch of 2027). My interests lie at the intersection of biology and engineering, especially in biosensor design, lab on chip devices, bioproduction processes and computational modelling. 
+:::
+
+## Experience
+
+::: {.experience-list}
+- [Research Intern, Amgen Scholars Program]{.exp-role}<br>
+  [IIIT Hyderabad]{.exp-org} · [Jun 2026 – Aug 2026]{.exp-dates}<br>
+  [Developed a ZnO nanorod-based electrochemical sensor for TB detection and a computational pipeline for aptamer optimization. [More info](/experience/amgen/)]{.exp-summary}
+
+- [Research Assistant — Fungal Microbiome]{.exp-role}<br>
+  [Plaksha University]{.exp-org} · [Jul 2025 – Present]{.exp-dates}<br>
+  [Characterizing fungal pathogens at molecular level using PCR, sequencing, and phylogenetic analysis for soil carbon sequestration research. [More info](/experience/fungal_characterization/)]{.exp-summary}
+:::
+
+## Projects
+
+::: {#projects}
+:::

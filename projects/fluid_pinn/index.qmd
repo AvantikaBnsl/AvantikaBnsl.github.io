@@ -1,0 +1,23 @@
+---
+title: "Inverse PINN Modelling of Flow in a Collapsible Compliant Tube"
+subtitle: "Research Project"
+description: "Analyzing flow–structure interactions in collapsible tubes using Physics-Informed Neural Networks for venous blood flow modelling."
+categories: [Cardiovascular Systems, Fluid Mechanics, Experimental Modelling]
+order: 3
+author:
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+---
+
+*Advisor: Prof. Shashikant Pawar* | Aug 2026 – Present
+
+## Overview
+
+This ongoing project analyzes flow–structure interactions in collapsible tubes to study pressure and velocity fields in arterial blood flow, combining experimental measurement with physics-informed deep learning.
+
+## Key Contributions
+
+- Analyzing flow–structure interactions in collapsible tubes to study **pressure and velocity fields** in venous blood flow.
+- Constructing **fluid–structure interaction (FSI) models** and experimental setup for tube deformation and flow measurements.
+- Implementing a **physics-informed inverse model (PINN)** for validating experimental measurements.

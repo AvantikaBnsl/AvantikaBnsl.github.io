@@ -1,0 +1,23 @@
+---
+title: "Deep Learning-Enhanced Metabolic Control for PHA Production"
+subtitle: "Research Project"
+description: "Building a computational framework to optimize bioplastic (PHA) production in Pseudomonas putida using deep learning and metabolic control analysis."
+categories: [Deep Learning, Metabolic Engineering, Computational Biology]
+order: 4
+author:
+  - name: Avantika Bansal
+    url: https://github.com/AvantikaBnsl
+    affiliation: Plaksha University
+---
+
+*Advisor: Prof. Monika Sharma* | Aug 2026 – Present
+
+## Overview
+
+This ongoing project focuses on building a computational framework to optimize the production of bioplastic (PHA) in *Pseudomonas putida* using deep learning and metabolic control analysis.
+
+## Key Contributions
+
+- Building a computational framework to optimize the **production of bioplastic (PHA)** in *Pseudomonas putida*.
+- Developing **metabolic sub-network reconstruction** for enhancing PHA production pathways.
+- Formulating a **dynamic simulations and MCA** based framework to analyze metabolic engineering targets.

@@ -1,0 +1,19 @@
+---
+title: "Research Intern, Amgen Scholars Program"
+subtitle: "IIIT Hyderabad · Jun 2026 – Aug 2026"
+description: "Computational Aptamer Optimization for Electrochemical Biosensor for rapid Tuberculosis detection using ZnO nanorods."
+---
+
+> Supervisor: Dr. Abhishek Srivastava, IIIT Hyderabad
+
+## Overview
+
+As an Amgen Scholar at IIIT Hyderabad, I worked on developing an electrochemical biosensor for rapid Tuberculosis detection, combining nanomaterial fabrication with computational aptamer optimization.
+
+## Contributions
+
+- Established a **ZnO nanorod based electrochemical sensor** for rapid detection of **Tuberculosis**.
+- Fabricated and characterized **ZnO nanorod-modified IDEs using hydrothermal synthesis** for electrochemical biosensing.
+- Developed a computational pipeline for aptamer optimization using **2D and 3D modelling** with RNA structure simulation tools.
+- Extracted **sequence, structural, physicochemical, docking features and binding affinity** for aptamer–protein pairs.
+- Presented at the **Amgen Asia Symposium**, University of Tokyo, engaging with 75+ researchers from across Asia and Australia.
