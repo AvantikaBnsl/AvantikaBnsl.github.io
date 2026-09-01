@@ -8,6 +8,4 @@ git-update.sh
 .vscode/
 /.quarto/
 **/*.quarto_ipynb
-_listings
-_partials
 _site
