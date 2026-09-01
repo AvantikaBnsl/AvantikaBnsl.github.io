@@ -3,6 +3,7 @@
 Personal site, built with [Quarto](https://quarto.org) and deployed to GitHub
 Pages by the workflow in `.github/workflows/publish.yml` on every push to `main`.
 
+
 ## Local development
 
 ```bash
